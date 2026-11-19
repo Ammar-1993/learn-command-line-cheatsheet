@@ -1,9 +1,10 @@
 # 💻 الدليل المرجعي الشامل لسطر الأوامر | CLI
 
 ![Bash Scripting](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Elzero Web School](https://img.shields.io/badge/Elzero_Web_School-27_Lessons-007ACC?style=for-the-badge&logo=youtube&logoColor=white)
+[![Elzero Web School](https://img.shields.io/badge/Elzero_Web_School-27_Lessons-007ACC?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLPekubhUiZ90&si=1bbD5L14yWCst9_q)
 ![Cross Platform](https://img.shields.io/badge/Platform-Linux_%7C_macOS_%7C_Windows-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 [![PDF Carousel](https://img.shields.io/badge/PDF_Carousel-8_Slides-EC1C24?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](docs/%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%20%D9%84%D8%B3%D8%B7%D8%B1%20%D8%A7%D9%84%D8%A3%D9%88%D8%A7%D9%85%D8%B1%20-%20LinkedIn%20Carousel.pdf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-9cf?style=for-the-badge)](LICENSE)
 
 > **مرجع عملي منظّم ومفتوح المصدر** يجمع كافة الأوامر، الخيارات (`Options`)، اختصارات لوحة المفاتيح، وسكربتات **Bash** التطبيقية المستخلصة من دورة **Learn Command Line** (27 درساً) المقدمة من المهندس **أسامة الزيرو** عبر قناة **Elzero Web School**.
 
@@ -277,6 +278,8 @@ Generated structure:
 ```text
 learn-command-line-cheatsheet/
 ├── .gitattributes
+├── .gitignore
+├── LICENSE
 ├── README.md
 ├── docs/
 │   └── الدليل المرجعي الشامل لسطر الأوامر - LinkedIn Carousel.pdf
@@ -302,8 +305,9 @@ cd learn-command-line-cheatsheet
 ## 🙌 11. المصادر وحقوق الدورة
 
 * **المصدر التعليمي:** دورة **Learn Command Line** (27 درساً) للمهندس **أسامة الزيرو** — قناة [Elzero Web School](https://www.youtube.com/@ElzeroWebSchool).
-* **رابط قائمة التشغيل:** [مشاهدة دورة Learn Command Line على YouTube](https://youtube.com/playlist?list=PLPekubhUiZ90&si=6eiBp9mur4GxYe36)
+* **رابط قائمة التشغيل:** [مشاهدة دورة Learn Command Line على YouTube](https://youtube.com/playlist?list=PLPekubhUiZ90&si=1bbD5L14yWCst9_q)
 * **الملخص البصري (PDF Carousel):** [الدليل المرجعي الشامل لسطر الأوامر — 8 شرائح](docs/%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%20%D9%84%D8%B3%D8%B7%D8%B1%20%D8%A7%D9%84%D8%A3%D9%88%D8%A7%D9%85%D8%B1%20-%20LinkedIn%20Carousel.pdf)
+* **الترخيص (License):** مرخّص بموجب رخصة [MIT License](LICENSE).
 * **المساهمة (Contributing):** نرحب بأي اقتراحات أو إضافة سكربتات عملية مفيدة عبر فتح `Issue` أو إرسال `Pull Request`.
 
 ---

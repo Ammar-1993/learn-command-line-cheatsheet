@@ -29,20 +29,22 @@ echo ""
 # ------------------------------------------------------------------------------
 read -r -p "Enter Your Project Name: " project
 
-# إزالة المسافات الزائدة للتحقق من أن المستخدم لم يُدخل مسافات فارغة فقط
+# إزالة المسافات البادئة واللاحقة (Leading & Trailing Whitespace)
+# لضمان عدم إنشاء مجلد يبدأ أو ينتهي بمسافات غير مقصودة، ولمنع قبول المسافات الفارغة فقط
 # (تطوير عملي للملاحظة المذكورة في الدرس 25 حول عدم احتساب المسافة كطول صفر)
-trimmed_project="${project// /}"
+project="${project#"${project%%[![:space:]]*}"}"
+project="${project%"${project##*[![:space:]]}"}"
 
 # ------------------------------------------------------------------------------
 # [2] الشرط الرئيسي (Main If): التحقق من أن اسم المشروع غير فارغ
 # المعامل (-z) يتحقق هل طول النص يساوي صفراً أم لا
 # ------------------------------------------------------------------------------
-if [ -z "$trimmed_project" ]; then
+if [ -z "$project" ]; then
   echo -e "${RED}[Error] Project name can't be empty or whitespace only.${RESET}"
   exit 1
-elif [ -d "$project" ]; then
-  # فحص أمان إضافي: التأكد من عدم وجود مجلد بنفس الاسم مسبقاً لتجنب الاستبدال
-  echo -e "${YELLOW}[Warning] Directory '$project' already exists. Operation aborted.${RESET}"
+elif [ -e "$project" ]; then
+  # فحص أمان إضافي: التأكد من عدم وجود مجلد أو ملف بنفس الاسم مسبقاً لتجنب الاستبدال
+  echo -e "${YELLOW}[Warning] '$project' already exists. Operation aborted.${RESET}"
   exit 1
 else
   # ----------------------------------------------------------------------------
@@ -57,11 +59,11 @@ else
     echo ""
     echo -e "${CYAN}Creating project structure for '$project'...${RESET}"
 
-    # إنشاء المجلدات المتداخلة دفعة واحدة باستخدام (-p)
-    mkdir -p "$project/css" "$project/js" "$project/images"
+    # إنشاء المجلدات المتداخلة دفعة واحدة باستخدام (-p) مع (--) لحماية الأسماء التي تبدأ بشرطة
+    mkdir -p -- "$project/css" "$project/js" "$project/images" || exit 1
 
     # إنشاء الملفات الأساسية
-    touch "$project/css/style.css" "$project/js/main.js"
+    touch -- "$project/css/style.css" "$project/js/main.js"
 
     # كتابة قالب HTML5 أساسي داخل index.html باستخدام تقنية Heredoc (EOF) من الدرس 23
     cat > "$project/index.html" << EOF
