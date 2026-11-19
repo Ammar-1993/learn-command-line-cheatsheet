@@ -211,7 +211,7 @@ bash scripts/create_project.sh
 ## 🙌 10. المصادر وحقوق الدورة
 
 * **المصدر التعليمي:** دورة **Learn Command Line** (27 درساً) للمهندس **أسامة الزيرو** — قناة [Elzero Web School](https://www.youtube.com/@ElzeroWebSchool).
-* **رابط قائمة التشغيل:** [ضع رابط قائمة التشغيل الكاملة هنا]
+* **رابط قائمة التشغيل:** [https://youtube.com/playlist?list=PLPekubhUiZ90&si=6eiBp9mur4GxYe36]
 * **المساهمة (Contributing):** نرحب بأي اقتراحات أو إضافة سكربتات عملية مفيدة عبر فتح `Issue` أو إرسال `Pull Request`.
 
 ---
