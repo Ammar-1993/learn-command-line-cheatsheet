@@ -175,17 +175,17 @@
 
 | متى تستخدمه؟ (حالة عملية) | الوظيفة | الاختصار |
 | ---: | ---: | :---: |
-| <span dir="rtl">عند نسيان كتابة أمر مثل `sudo` في بداية سطر طويل والقفز إليه فوراً</span> | <span dir="rtl">الانتقال الفوري إلى **بداية السطر**</span> | <kbd>Ctrl</kbd> + <kbd>A</kbd> |
-| <span dir="rtl">العودة لآخر السطر بعد تعديل بدايته لإضافة خيار أو مسار جديد</span> | <span dir="rtl">الانتقال الفوري إلى **نهاية السطر**</span> | <kbd>Ctrl</kbd> + <kbd>E</kbd> |
-| <span dir="rtl">التنقل السريع للخلف بين كلمات الأمر دون الضغط المتكرر على الأسهم</span> | <span dir="rtl">الرجوع **كلمة واحدة للخلف** (`Back`)</span> | <kbd>Alt</kbd> + <kbd>B</kbd> |
-| <span dir="rtl">القفز للأمام كلمة تلو الأخرى لتصحيح اسم ملف أو خيار محدد</span> | <span dir="rtl">التقدم **كلمة واحدة للأمام** (`Forward`)</span> | <kbd>Alt</kbd> + <kbd>F</kbd> |
-| <span dir="rtl">مسح السطر المكتوب بالكامل دفعة واحدة لإعادة كتابة الأمر من جديد</span> | <span dir="rtl">حذف كل ما **قبل** المؤشر حتى بداية السطر</span> | <kbd>Ctrl</kbd> + <kbd>U</kbd> |
-| <span dir="rtl">مسح بقية السطر أو المسارات الزائدة بعد موضع المؤشر الحالي</span> | <span dir="rtl">حذف كل ما **بعد** المؤشر حتى نهاية السطر</span> | <kbd>Ctrl</kbd> + <kbd>K</kbd> |
-| <span dir="rtl">التراجع عن حذف جزء من الأمر وإعادته فوراً في موضع المؤشر</span> | <span dir="rtl">استرجاع (لصق) النص المحذوف مؤخراً عبر <span dir="ltr"><kbd>Ctrl</kbd> + <kbd>U</kbd></span> أو <span dir="ltr"><kbd>Ctrl</kbd> + <kbd>K</kbd></span></span> | <kbd>Ctrl</kbd> + <kbd>Y</kbd> |
-| <span dir="rtl">تنظيف شاشة التيرمنال المزدحمة بالمخرجات مع إبقاء الأمر الحالي</span> | <span dir="rtl">تنظيف الشاشة بالكامل (اختصار `clear`)</span> | <kbd>Ctrl</kbd> + <kbd>L</kbd> |
-| <span dir="rtl">إيقاف أمر يعمل باستمرار أو إلغاء سطر كتبته بالخطأ قبل تنفيذه</span> | <span dir="rtl">إلغاء الأمر الحالي وفتح سطر أوامر جديد</span> | <kbd>Ctrl</kbd> + <kbd>C</kbd> |
+| <span dir="rtl">عند نسيان كتابة أمر مثل `sudo` في بداية سطر طويل والقفز إليه فوراً</span> | <span dir="rtl">الانتقال الفوري إلى **بداية السطر**</span> | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>A</kbd> |
+| <span dir="rtl">العودة لآخر السطر بعد تعديل بدايته لإضافة خيار أو مسار جديد</span> | <span dir="rtl">الانتقال الفوري إلى **نهاية السطر**</span> | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>E</kbd> |
+| <span dir="rtl">التنقل السريع للخلف بين كلمات الأمر دون الضغط المتكرر على الأسهم</span> | <span dir="rtl">الرجوع **كلمة واحدة للخلف** (`Back`)</span> | <kbd>Alt</kbd>&nbsp;+&nbsp;<kbd>B</kbd> |
+| <span dir="rtl">القفز للأمام كلمة تلو الأخرى لتصحيح اسم ملف أو خيار محدد</span> | <span dir="rtl">التقدم **كلمة واحدة للأمام** (`Forward`)</span> | <kbd>Alt</kbd>&nbsp;+&nbsp;<kbd>F</kbd> |
+| <span dir="rtl">مسح السطر المكتوب بالكامل دفعة واحدة لإعادة كتابة الأمر من جديد</span> | <span dir="rtl">حذف كل ما **قبل** المؤشر حتى بداية السطر</span> | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>U</kbd> |
+| <span dir="rtl">مسح بقية السطر أو المسارات الزائدة بعد موضع المؤشر الحالي</span> | <span dir="rtl">حذف كل ما **بعد** المؤشر حتى نهاية السطر</span> | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>K</kbd> |
+| <span dir="rtl">التراجع عن حذف جزء من الأمر وإعادته فوراً في موضع المؤشر</span> | <span dir="rtl">استرجاع (لصق) النص المحذوف مؤخراً عبر <span dir="ltr"><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>U</kbd></span> أو <span dir="ltr"><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>K</kbd></span></span> | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>Y</kbd> |
+| <span dir="rtl">تنظيف شاشة التيرمنال المزدحمة بالمخرجات مع إبقاء الأمر الحالي</span> | <span dir="rtl">تنظيف الشاشة بالكامل (اختصار `clear`)</span> | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>L</kbd> |
+| <span dir="rtl">إيقاف أمر يعمل باستمرار أو إلغاء سطر كتبته بالخطأ قبل تنفيذه</span> | <span dir="rtl">إلغاء الأمر الحالي وفتح سطر أوامر جديد</span> | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>C</kbd> |
 | <span dir="rtl">كتابة أول حرفين من اسم ملف أو مجلد طويل لإكماله وتفادي الأخطاء الإملائية</span> | <span dir="rtl">الإكمال التلقائي لأسماء الملفات والمسارات والأوامر</span> | <kbd>Tab</kbd> |
-| <span dir="rtl">إعادة تشغيل أو تعديل أمر نفّذته مؤخراً دون الحاجة لإعادة كتابته</span> | <span dir="rtl">التنقل بين الأوامر السابقة واللاحقة في السجل</span> | <kbd>↑</kbd> / <kbd>↓</kbd> |
+| <span dir="rtl">إعادة تشغيل أو تعديل أمر نفّذته مؤخراً دون الحاجة لإعادة كتابته</span> | <span dir="rtl">التنقل بين الأوامر السابقة واللاحقة في السجل</span> | <kbd>↑</kbd>&nbsp;/&nbsp;<kbd>↓</kbd> |
 
 > [!CAUTION]
 > **لا تستخدم <kbd>Ctrl</kbd> + <kbd>Z</kbd> للتراجع عن حذف نص:** الاختصار <kbd>Ctrl</kbd> + <kbd>Z</kbd> في التيرمنال يُعلّق (`Suspend`) العملية الجارية في الخلفية ولا يتراجع عن الحذف؛ استخدم دائماً <kbd>Ctrl</kbd> + <kbd>Y</kbd> لاستعادة النص المحذوف.
