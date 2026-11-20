@@ -11,14 +11,14 @@
 ![Bash Scripting](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 [![Elzero Web School](https://img.shields.io/badge/Elzero_Web_School-27_Lessons-007ACC?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLPekubhUiZ90&si=1bbD5L14yWCst9_q)
 ![Cross Platform](https://img.shields.io/badge/Platform-Linux_%7C_macOS_%7C_Windows-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-[![PDF Carousel](https://img.shields.io/badge/PDF_Carousel-8_Slides-EC1C24?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](docs/%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%20%D9%84%D8%B3%D8%B7%D8%B1%20%D8%A7%D9%84%D8%A3%D9%88%D8%A7%D9%85%D8%B1%20-%20LinkedIn%20Carousel.pdf)
+[![PDF Carousel](https://img.shields.io/badge/PDF_Carousel-8_Slides-EC1C24?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](docs/Carousel_Command_Line_Interface.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-38BDF8?style=for-the-badge)](LICENSE)
 
 <br />
 
 [📑 فهرس المحتويات](#-فهرس-المحتويات) •
 [🤖 السكربتات التطبيقية](#-8-سكربتات-الدورة-التطبيقية-bash-scripts) •
-[📄 النسخة المصوّرة PDF](docs/%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%20%D9%84%D8%B3%D8%B7%D8%B1%20%D8%A7%D9%84%D8%A3%D9%88%D8%A7%D9%85%D8%B1%20-%20LinkedIn%20Carousel.pdf) •
+[📄 النسخة المصوّرة PDF](docs/Carousel_Command_Line_Interface.pdf) •
 [🚀 التشغيل المحلي](#-10-هيكل-المستودع-وطريقة-التشغيل)
 
 </div>
@@ -26,7 +26,7 @@
 ---
 
 > [!NOTE]
-> 📄 **النسخة البصرية السريعة (PDF Carousel):** يضم المستودع ملخصاً مصمماً بثيم Terminal داكن مكوّناً من **8 شرائح** عالية الوضوح، مثالية للمراجعة السريعة أو الطباعة، داخل مجلد [`docs/`](docs/%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%20%D9%84%D8%B3%D8%B7%D8%B1%20%D8%A7%D9%84%D8%A3%D9%88%D8%A7%D9%85%D8%B1%20-%20LinkedIn%20Carousel.pdf).
+> 📄 **النسخة البصرية السريعة (PDF Carousel):** يضم المستودع ملخصاً مصمماً بثيم Terminal داكن مكوّناً من **8 شرائح** عالية الوضوح، مثالية للمراجعة السريعة أو الطباعة، داخل مجلد [`docs/`](docs/Carousel_Command_Line_Interface.pdf).
 
 ## 📑 فهرس المحتويات
 
@@ -318,7 +318,7 @@ learn-command-line-cheatsheet/
 ├── LICENSE
 ├── README.md
 ├── docs/
-│   └── الدليل المرجعي الشامل لسطر الأوامر - LinkedIn Carousel.pdf
+│   └── Carousel_Command_Line_Interface.pdf
 └── scripts/
     ├── start.sh
     ├── create_project.sh
@@ -344,7 +344,7 @@ cd learn-command-line-cheatsheet
 
 * **المصدر التعليمي:** دورة **Learn Command Line** (27 درساً) للمهندس **أسامة الزيرو** — قناة [Elzero Web School](https://www.youtube.com/@ElzeroWebSchool).
 * **رابط قائمة التشغيل:** [مشاهدة دورة Learn Command Line على YouTube](https://youtube.com/playlist?list=PLPekubhUiZ90&si=1bbD5L14yWCst9_q)
-* **الملخص البصري (PDF Carousel):** [الدليل المرجعي الشامل لسطر الأوامر — 8 شرائح](docs/%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%20%D9%84%D8%B3%D8%B7%D8%B1%20%D8%A7%D9%84%D8%A3%D9%88%D8%A7%D9%85%D8%B1%20-%20LinkedIn%20Carousel.pdf)
+* **الملخص البصري (PDF Carousel):** [الدليل المرجعي الشامل لسطر الأوامر — 8 شرائح](docs/Carousel_Command_Line_Interface.pdf)
 * **الترخيص (License):** مرخّص بموجب رخصة [MIT License](LICENSE).
 * **المساهمة (Contributing):** نرحب بأي اقتراحات أو إضافة سكربتات عملية مفيدة عبر فتح `Issue` أو إرسال `Pull Request`.
 
