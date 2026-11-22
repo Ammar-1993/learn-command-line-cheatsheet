@@ -2,26 +2,72 @@
 
 # 💻 الدليل المرجعي الشامل لسطر الأوامر | CLI Cheat Sheet
 
-**مرجع عملي منظّم ومفتوح المصدر لسطر الأوامر وـ Bash Scripting**
+**مرجع عملي منظّم، احترافي، ومفتوح المصدر لسطر الأوامر وـ Bash Scripting**
 <br />
-<sub>مستخلص ومطوّر من دورة <b>Learn Command Line (27 درساً)</b> للمهندس أسامة الزيرو — Elzero Web School</sub>
+<sub>مستخلص ومطوّر من دورة <b>Learn Command Line (27 درساً)</b> للمهندس <b>أسامة الزيرو</b> — Elzero Web School</sub>
 
 <br /><br />
 
-![Bash Scripting](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+[![Shell: Bash](https://img.shields.io/badge/Shell-Bash_5.0+-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](scripts/)
 [![Elzero Web School](https://img.shields.io/badge/Elzero_Web_School-27_Lessons-007ACC?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLPekubhUiZ90&si=1bbD5L14yWCst9_q)
-![Cross Platform](https://img.shields.io/badge/Platform-Linux_%7C_macOS_%7C_Windows-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+[![Platform](https://img.shields.io/badge/Platform-Linux_%7C_macOS_%7C_Windows-FCC624?style=for-the-badge&logo=linux&logoColor=black)](scripts/)
 [![PDF Carousel](https://img.shields.io/badge/PDF_Carousel-8_Slides-EC1C24?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](docs/Carousel_Command_Line_Interface.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-38BDF8?style=for-the-badge)](LICENSE)
+[![Author: Ammar Al-Najjar](https://img.shields.io/badge/Author-Ammar_Al--Najjar-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ammar-1993)
 
 <br />
 
 [📑 فهرس المحتويات](#-فهرس-المحتويات) •
+[🧭 مسار التعلم](#-مسار-التعلم-roadmap) •
 [🤖 السكربتات التطبيقية](#-8-سكربتات-الدورة-التطبيقية-bash-scripts) •
 [📄 النسخة المصوّرة PDF](docs/Carousel_Command_Line_Interface.pdf) •
-[🚀 التشغيل المحلي](#-10-هيكل-المستودع-وطريقة-التشغيل)
+[🚀 التشغيل السريع](#-10-هيكل-المستودع-وطريقة-التشغيل)
+
+<br />
+
+<a href="docs/Carousel_Command_Line_Interface.pdf" title="اضغط لتحميل أو فتح النسخة المصورة PDF">
+  <img src="docs/cover.png" alt="Command Line Cheat Sheet Cover" width="460" />
+</a>
+<br />
+<sub>👆 <b>اضغط على الصورة</b> لتحميل أو تصفّح الدليل البصري كاملاً (8 شرائح عالية الدقة مخصصة للمراجعة السريعة)</sub>
+
+<br /><br />
 
 </div>
+
+---
+
+### 🌟 مميزات هذا المرجع
+
+| 📱 **ملخص بصري (Carousel)** | 🛡️ **هندسة برمجية آمنة** | ⚙️ **سكربتات أتمتة متقدمة** | 🎓 **تغطية شاملة 100%** |
+| :---: | :---: | :---: | :---: |
+| تصميم داكن بنمط Terminal مكوّن من 8 شرائح للمراجعة السريعة والطباعة | تنبيهات للحذف غير القابل للاسترجاع وفحص المسافات والمدخلات | كود Bash تفاعلي مزوّد بألوان ANSI وقوالب HTML5 متكاملة | ملخص لجميع محاور دورة الزيرو (27 درساً) مع أوامر التوسع المتقدمة |
+
+---
+
+### 🧭 مسار التعلم (Roadmap)
+
+```mermaid
+flowchart LR
+    A["📂 1. التنقل والمسارات"] --> B["🔧 2. إدارة الملفات بأمان"]
+    B --> C["📝 3. القراءة والتوجيه"]
+    C --> D["🔍 4. البحث والأنابيب"]
+    D --> E["🎯 5. رموز المطابقة"]
+    E --> F["⚡ 6. الشروط والأسماء"]
+    F --> G["💻 7. اختصارات Bash"]
+    G --> H["🤖 8. سكربتات الأتمتة"]
+    H --> I["🚀 9. أوامر السيرفرات المتقدمة"]
+
+    style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style B fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style C fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style D fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style E fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style F fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style G fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style H fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#34d399
+    style I fill:#0f172a,stroke:#f59e0b,stroke-width:2px,color:#fbbf24
+```
 
 ---
 
@@ -62,7 +108,7 @@
 > [!TIP]
 > **قاعدة ذهبية (العمل من أي موقع):** لست مضطراً لاستخدام `cd` قبل التعامل مع الملفات؛ يمكنك تمرير المسار النسبي (مثل `cat ../../learn-html/index.html`) أو المسار المطلق (مثل `grep PHP /c/xampp/php/php.ini`) مع أي أمر مباشرة.
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -85,7 +131,7 @@
 > [!WARNING]
 > **تنبيه أمني:** أوامر الحذف في سطر الأوامر (`rm`) لا تنقل الملفات إلى سلة المحذوفات؛ احرص دائماً على استخدام المعاملات التفاعلية (`-i` أو `-I`) عند حذف المجلدات المهمة.
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -105,7 +151,7 @@
 > [!IMPORTANT]
 > **الفرق الحاسم بين التوجيه المفرد والمزدوج:** علامة واحدة `>` تمسح محتوى الملف القديم وتستبدله بالكامل، بينما علامتان `>>` تُلحقان المحتوى الجديد في نهاية الملف بأمان دون فقدان البيانات السابقة.
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -130,7 +176,7 @@
 > * `head -n 5 text.txt | grep j` ⬅️ يقتطع **أول 5 أسطر فقط** ثم يبحث بداخلها.
 > * `sort tech.txt | uniq -c` ⬅️ أمر `uniq -c` يُحصي الأسطر المتجاورة فقط؛ لذا نمرّر `sort` قبله (وبدون `-u` حتى لا تُحذف التكرارات قبل عدّها).
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -147,7 +193,7 @@
 | <span dir="rtl">يعرض `file1.txt`، `file2.txt`، `file3.txt`</span> | `ls file[1-3].txt` | <span dir="rtl">نطاق (`Range`) من البداية إلى النهاية</span> | `[1-3]` / `[a-g]` |
 | <span dir="rtl">ينسخ كل الملفات المطابقة باستثناء `1` و `2`</span> | `cp file[!12].txt backup/` | <span dir="rtl">استثناء (`!` تعني `Not`): كل شيء ما عدا المذكور</span> | `[!12]` / `[!a-c]` |
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -167,7 +213,7 @@
 > [!TIP]
 > **جعل الاختصارات (`alias`) دائمة:** الاختصارات المُنشأة مباشرة داخل التيرمنال تعمل طوال الجلسة الحالية فقط؛ لحفظها بشكل دائم أضفها إلى ملف `~/.bashrc` ثم نفّذ `source ~/.bashrc`.
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -190,7 +236,7 @@
 > [!CAUTION]
 > **لا تستخدم <kbd>Ctrl</kbd> + <kbd>Z</kbd> للتراجع عن حذف نص:** الاختصار <kbd>Ctrl</kbd> + <kbd>Z</kbd> في التيرمنال يُعلّق (`Suspend`) العملية الجارية في الخلفية ولا يتراجع عن الحذف؛ استخدم دائماً <kbd>Ctrl</kbd> + <kbd>Y</kbd> لاستعادة النص المحذوف.
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -286,7 +332,7 @@ Generated structure:
 ```
 </details>
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -305,7 +351,7 @@ Generated structure:
 | `df -h` / `du -sh .` | <span dir="rtl">عرض المساحة المتوفرة على الأقراص أو حجم مجلد محدد</span> | التخزين | `df -h` / `du -sh` |
 | `ssh user@192.168.1.10` | <span dir="rtl">الاتصال الآمن بالسيرفرات البعيدة وإدارتها</span> | السيرفرات | `ssh` |
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -318,7 +364,8 @@ learn-command-line-cheatsheet/
 ├── LICENSE
 ├── README.md
 ├── docs/
-│   └── Carousel_Command_Line_Interface.pdf
+│   ├── Carousel_Command_Line_Interface.pdf
+│   └── cover.png
 └── scripts/
     ├── start.sh
     ├── create_project.sh
@@ -336,7 +383,7 @@ cd learn-command-line-cheatsheet
 ./scripts/create_project.sh
 ```
 
-<div align="left"><sub><a href="#-فهرس-المحتويات">⬆️ العودة إلى الفهرس</a></sub></div>
+<p align="left"><a href="#-فهرس-المحتويات">🔝 العودة إلى الفهرس</a></p>
 
 ---
 
@@ -352,8 +399,16 @@ cd learn-command-line-cheatsheet
 
 <div align="center">
 
-تم الإعداد والتوثيق بواسطة **[عمار النجار (Ammar Al-Najjar)](https://github.com/Ammar-1993)** — *Full-Stack Software Engineer*
+### 👨‍💻 تم الإعداد والتوثيق بواسطة
 
-إذا وجدت هذا المرجع مفيداً، لا تنسَ دعم المستودع بنجمة ⭐ على GitHub!
+**[عمار النجار (Ammar Al-Najjar)](https://github.com/Ammar-1993)**  
+*Full-Stack Software Engineer*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ammar--1993-181717?style=flat-square&logo=github)](https://github.com/Ammar-1993)
+[![Follow](https://img.shields.io/github/followers/Ammar-1993?label=Follow&style=social)](https://github.com/Ammar-1993)
+
+<br />
+
+⭐ إذا كان هذا الدليل مفيداً لك في عملك أو دراستك، لا تنسَ دعم المستودع بـ **Star** على GitHub!
 
 </div>
