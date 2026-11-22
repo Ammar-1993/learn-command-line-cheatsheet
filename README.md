@@ -48,25 +48,26 @@
 ### 🧭 مسار التعلم (Roadmap)
 
 ```mermaid
+%%{init: {'themeVariables': { 'fontSize': '15px', 'fontFamily': 'system-ui, -apple-system, sans-serif' }}}%%
 flowchart RL
-    A["📂 1. التنقل والمسارات"] --> B["🔧 2. إدارة الملفات بأمان"]
-    B --> C["📝 3. القراءة والتوجيه"]
-    C --> D["🔍 4. البحث والأنابيب"]
-    D --> E["🎯 5. رموز المطابقة"]
-    E --> F["⚡ 6. الشروط والأسماء"]
-    F --> G["💻 7. اختصارات Bash"]
-    G --> H["🤖 8. سكربتات الأتمتة"]
-    H --> I["🚀 9. أوامر السيرفرات المتقدمة"]
+    A["‏<b>📂 1. التنقل والمسارات</b><br/>استعراض المجلدات والملفات"] --> B["‏<b>🔧 2. إدارة الملفات بأمان</b><br/>إنشاء ونسخ وحذف آمن"]
+    B --> C["‏<b>📝 3. القراءة والتوجيه</b><br/>قراءة الملفات ودمج السجلات"]
+    C --> D["‏<b>🔍 4. البحث والأنابيب</b><br/>تصفية وفلترة المخرجات"]
+    D --> E["‏<b>🎯 5. رموز المطابقة</b><br/>التعامل مع أنماط الملفات"]
+    E --> F["‏<b>⚡ 6. الشروط والأسماء</b><br/>الربط الشرطي وسجل الأوامر"]
+    F --> G["‏<b>💻 7. اختصارات Bash</b><br/>التحكم السريع بالطرفية"]
+    G --> H["‏<b>🤖 8. سكربتات الأتمتة</b><br/>بناء مشاريع ويب تفاعلية"]
+    H --> I["‏<b>🚀 9. أوامر السيرفرات</b><br/>إدارة العمليات والشبكات"]
 
-    style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style B fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style C fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style D fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style E fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style F fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style G fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style H fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#34d399
-    style I fill:#0f172a,stroke:#f59e0b,stroke-width:2px,color:#fbbf24
+    style A fill:#1e293b,stroke:#38bdf8,stroke-width:2.5px,color:#f8fafc
+    style B fill:#1e293b,stroke:#38bdf8,stroke-width:2.5px,color:#f8fafc
+    style C fill:#1e293b,stroke:#38bdf8,stroke-width:2.5px,color:#f8fafc
+    style D fill:#1e293b,stroke:#38bdf8,stroke-width:2.5px,color:#f8fafc
+    style E fill:#1e293b,stroke:#38bdf8,stroke-width:2.5px,color:#f8fafc
+    style F fill:#1e293b,stroke:#38bdf8,stroke-width:2.5px,color:#f8fafc
+    style G fill:#1e293b,stroke:#38bdf8,stroke-width:2.5px,color:#f8fafc
+    style H fill:#0f172a,stroke:#10b981,stroke-width:2.5px,color:#34d399
+    style I fill:#0f172a,stroke:#f59e0b,stroke-width:2.5px,color:#fbbf24
 ```
 
 ---
